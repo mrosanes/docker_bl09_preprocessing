@@ -8,10 +8,10 @@ RUN apt-get update && apt-get install --fix-missing -y \
         gcc \
         g++ \
         python-pip \
-        python-setuptools \
+        python-setuptools
 
 # Install data processing and visualization libraries
-RUN apt-get update && apt-get install --fix-missing -y \
+RUN apt-get install -y \
         python-numpy \
         python-qt4 \ 
         python-qwt5-qt4 \
