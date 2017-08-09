@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install --fix-missing -y \
 # Install data processing and visualization libraries
 RUN apt-get update && apt-get install --fix-missing -y \
         python-numpy \
-        python-qt4\ 
+        python-qt4 \ 
         python-qwt5-qt4 \
         python-guiqwt \
         python-h5py \
