@@ -4,12 +4,11 @@ FROM debian:stable
 RUN apt-get update && apt-get install --fix-missing -y \
         ipython \
         vim \
-        python-setuptools \
         wget \
         gcc \
         g++ \
-        python-opencv \
-        python-pip
+        python-pip \
+        python-setuptools \
 
 # Install data processing and visualization libraries
 RUN apt-get update && apt-get install --fix-missing -y \
